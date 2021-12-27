@@ -1,137 +1,128 @@
-
 /* common property  */
-*{
+* {
   box-sizing: border-box;
 }
 
-
-html{
-  font-size:20px;
+html {
+  font-size: 20px;
 }
 
-body{
-  font-family: 'Inconsolata', monospace;
+body {
+  font-family: "Inconsolata", monospace;
 }
 
-ul li{
-list-style-type: none;    
+ul li {
+  list-style-type: none;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
 }
-img:hover{
-  opacity: .9;
+img:hover {
+  opacity: 0.9;
   cursor: pointer;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
 /* cok satır gösterme */
-.line-clamp-2{
-display: -webkit-box;
--webkit-line-clamp:2;
--webkit-box-orient: vertical;
-overflow: hidden;
-text-align: justify;
-letter-spacing: 0.0001rem;
-}
-
-.line-clamp-3{
-display: -webkit-box;
--webkit-line-clamp:3;
--webkit-box-orient: vertical;
-overflow: hidden;
-text-align: justify;
-letter-spacing: 0.0001rem;
-}
-
-
-.line-clamp-4{
-display: -webkit-box;
--webkit-line-clamp:4;
--webkit-box-orient: vertical;
-overflow: hidden;
-text-align: justify;
-letter-spacing: 0.0001rem;
-
-}
-
-.line-clamp-5{
+.line-clamp-2 {
   display: -webkit-box;
-  -webkit-line-clamp:5;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-align: justify;
   letter-spacing: 0.0001rem;
-  }
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-align: justify;
+  letter-spacing: 0.0001rem;
+}
+
+.line-clamp-4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-align: justify;
+  letter-spacing: 0.0001rem;
+}
+
+.line-clamp-5 {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-align: justify;
+  letter-spacing: 0.0001rem;
+}
 
 /* LOGO */
-#logo{
-  max-width:4rem ;
+#logo {
+  max-width: 4rem;
   height: 3.4rem;
 }
 
-#logo:hover{
+#logo:hover {
   box-shadow: 1px 1px 15px 1px #02a4e4;
   transition: 1s all;
 }
 
-
 /* navbar*/
-#navbar_id i{
-  color:rgb(76, 76, 216);
+#navbar_id i {
+  color: rgb(76, 76, 216);
 }
 
 /* header */
-header div{
+header div {
   max-height: 48rem;
 }
 
 /* main*/
 
-.card-title{
+.card-title {
   text-align: center;
   text-transform: uppercase;
 }
 
-#product .row .card{
+#product .row .card {
   margin-bottom: 4%;
 }
 
 /* company information */
-#company_information{
+#company_information {
   margin-bottom: 8%;
 }
-#company_information i{
+#company_information i {
   font-size: 4rem;
   color: #017dc3;
-  margin-left:40%;
-  margin-bottom:12%;
+  margin-left: 40%;
+  margin-bottom: 12%;
 }
 
-
 /*footer*/
-footer{
+footer {
   height: 18rem;
 }
 
-footer ul li i{
+footer ul li i {
   margin-top: 1rem;
-  color:blueviolet;
+  color: blueviolet;
 }
 
-footer ul li i a{
-  color:white;
+footer ul li i a {
+  color: white;
 }
 
-
-#footer_sub{
+#footer_sub {
   height: 4rem;
-  padding-top:1rem;
+  padding-top: 1rem;
 }
-
-
